@@ -7,3 +7,6 @@ The basic idea is:
 draw a line from the first to the last point of the curve and then find the data point that is farthest away from that line.
 
 an example image is shown here
+
+![alt text][logo]
+[logo]: https://github.com/handongfeng/researchNotes/blob/master/elbowSolution.png "solution illustration"
