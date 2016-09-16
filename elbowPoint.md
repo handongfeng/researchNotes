@@ -10,3 +10,11 @@ an example image is shown here
 
 ![alt text][logo]
 [logo]: https://github.com/handongfeng/researchNotes/blob/master/elbowSolution.png "solution illustration"
+
+
+
+Solution
+http://mathworld.wolfram.com/Point-LineDistance2-Dimensional.html
+
+[1] given two point (x1,y1) (x2,y2) define a line L, compute the distance from point (x0,y0) to L.
+$\d = | v,r | = \frac{ | (x_2-x_1)(y_1-y_0) - (x_1-x_0)(y_2-y_1) | }{ \sqrt{  (x_2-x_1)^2 + (y_2-y_1)^2} }$
