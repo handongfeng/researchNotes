@@ -12,3 +12,12 @@ https://docs.google.com/file/d/0BzszAhwjzfKgZDUzYWNmMjUtMGUzYi00ZDZhLTg0ODMtMWMy
 https://en.wikipedia.org/wiki/Dirichlet_process
 
 http://www.cs.cmu.edu/~kbe/dp_tutorial.pdf
+
+
+
+Bayesian statistics involve the following steps:
+
+1. Define the prior distribution that incorporates your subjective beliefs about a parameter (in your example the parameter of interest is the proportion of left-handers). The prior can be uninformative or informative.
+2. Gather data.
+3. Update your prior distribution with the data using Bayes' theorem to obtain a posterior distribution. The posterior distribution is a  probability distribution that represents your updated beliefs about the parameter after having seen the data.
+4. Analyze the posterior distribution and summarize it (mean, median, sd, quantiles, ...).
