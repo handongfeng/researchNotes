@@ -1,4 +1,6 @@
 
+http://blog.datumbox.com/finite-mixture-model-based-on-dirichlet-distribution/
+
 http://www.cnblogs.com/breezedeus/archive/2012/11/05/2754940.html
 
 http://xiaodong-yu.blogspot.com/2009/09/gibbs-sampling-for-dp-mixtures.html
