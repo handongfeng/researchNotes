@@ -10,4 +10,4 @@ You should master below algorithm and technique. Maninly for software point of v
 [6] Tree structure. 
 [7] regression
 [8] K-NN: nearest neighbor search
-
+[9] Commonly used data structure: vector, map, set pair, std::sort, boost smart pointer,
