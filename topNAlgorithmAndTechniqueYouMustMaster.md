@@ -23,5 +23,7 @@ $X$ is the $d \times n$ matrix and each columen is one point. $W = diag(w_1,w_2,
 $$R = VU^T$$
 [5] translations is $$ t = \overline{q}-R\overline{p}$$
 
-12. Smart pointer. Use unique_ptr when you want a single pointer to an object that will be reclaimed when that single pointer is destroyed.
-Use shared_ptr when you want multiple pointers to the same resource.
+12. Smart pointer. 
+[1] Use unique_ptr when you want a single pointer to an object that will be reclaimed when that single pointer is destroyed.
+[2] Use shared_ptr when you want multiple pointers to the same resource.
+shared_ptr<T> sp1(new T(L"Lady Gaga", L"Just Dance"));
