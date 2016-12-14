@@ -27,3 +27,4 @@ $$R = VU^T$$
 [1] Use unique_ptr when you want a single pointer to an object that will be reclaimed when that single pointer is destroyed.
 [2] Use shared_ptr when you want multiple pointers to the same resource.
 shared_ptr<T> sp1(new T(L"Lady Gaga", L"Just Dance"));
+[3] Rules: try to use smart pointer instead of new and delete!
