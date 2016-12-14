@@ -16,9 +16,9 @@ You should master below algorithm and technique. Maninly for software point of v
 $$\overline{p} = \frac{\sum_{i=1}^{n} w_ip_i}{\sum_{i=1}^{n}w_i}, \overline{q} = \frac{\sum_{i=1}^{n} w_iq_i}{\sum_{i=1}^{n}w_i}$$
 [2] Compute the centered vectors:
 $$ x_i = p_i-\overline{p}, y_i= q_i-\overline{q}, i= 1,...,n$$
-[3] Compute the $d b\times d$ matrix $S$ 
+[3] Compute the $d \times d$ matrix $S$ 
 $$S =XWY^T$$
-$X$ is the $d x n$ matrix and each columen is one point. $\W = diag(w_1,w_2,...,w_n)$
-[4] Compute the SVD $S=U\sigma V^T$. So
-$$R = V$$
+$X$ is the $d \times n$ matrix and each columen is one point. $W = diag(w_1,w_2,...,w_n)$
+[4] Compute the SVD $S=U \Sigma V^T$. So
+$$R = VU^T$$
 [5] translations is $$ t = \overline{q}-R\overline{p}$$
