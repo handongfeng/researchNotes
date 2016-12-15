@@ -20,7 +20,7 @@ $$ x_i = p_i-\overline{p}, y_i= q_i-\overline{q}, i= 1,...,n$$
 $$S =XWY^T$$
 $X$ is the $d \times n$ matrix and each columen is one point. $W = diag(w_1,w_2,...,w_n)$
 [4] Compute the SVD $S=U \Sigma V^T$. So
-$$R = V  \begin{pmatrix}1 & 0 & \cdots & 0 \ 0 & 1 & \cdots & 0 \ \vdots & \vdots & \ddots & \vdots \0 & 0 & \cdots & det(VU^T) \end{pmatrix} U^T$$
+$$R = V  $$$\begin{pmatrix}1 & 0 & \cdots & 0 \ 0 & 1 & \cdots & 0 \ \vdots & \vdots & \ddots & \vdots \0 & 0 & \cdots & det(VU^T) \end{pmatrix} U^T$$
 [5] translations is $$ t = \overline{q}-R\overline{p}$$
 
 12. Smart pointer. 
