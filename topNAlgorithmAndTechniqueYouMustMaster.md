@@ -23,6 +23,15 @@ $X$ is the $d \times n$ matrix and each columen is one point. $W = diag(w_1,w_2,
 $$R = V  $$$\begin{pmatrix}1 & 0 & \cdots & 0 \ 0 & 1 & \cdots & 0 \ \vdots & \vdots & \ddots & \vdots \0 & 0 & \cdots & det(VU^T) \end{pmatrix} U^T$$
 [5] translations is $$ t = \overline{q}-R\overline{p}$$
 
+$$
+\left[\begin{array}
+{rrr}
+1 & 2 & 3 \\
+4 & 5 & 6 \\
+7 & 8 & 9
+\end{array}\right]
+$$
+
 12. Smart pointer. 
 ...  Use unique_ptr when you want a single pointer to an object that will be reclaimed when that single pointer is destroyed.
 ...  Use shared_ptr when you want multiple pointers to the same resource.
