@@ -4,7 +4,7 @@ You should master below algorithm and technique. Maninly for software point of v
 1. SVM: You should not only know how to use it, you should can derivate the dual formulation of SVM. 
 2. Divide and conquer thchnique: for example quick sort, binary search
 3. DP: DP could be very broadly range. But you should master some commonly used DP algorithms. such as clibe stairs, shorest path for an image along each rows, etc.
-4. Graph algorithms: shorest path, DFS, BFS, topological sort, regions growing, dilate and erode
+4. Graph algorithms: shorest path, dijkstra algorithm, DFS, BFS, topological sort, regions growing, dilate and erode
 5. min/max heap, together with graph shorest path
 6. Tree structure. k-d tree
 7. Regression
@@ -20,7 +20,7 @@ $$ x_i = p_i-\overline{p}, y_i= q_i-\overline{q}, i= 1,...,n$$
 $$S =XWY^T$$
 $X$ is the $d \times n$ matrix and each columen is one point. $W = diag(w_1,w_2,...,w_n)$
 [4] Compute the SVD $S=U \Sigma V^T$. So
-$$R = V  $$$\begin{pmatrix}1 & 0 & \cdots & 0 \ 0 & 1 & \cdots & 0 \ \vdots & \vdots & \ddots & \vdots \0 & 0 & \cdots & det(VU^T) \end{pmatrix} U^T$$
+$$R = V  \begin{pmatrix}1 & 0 & \cdots & 0 \ 0 & 1 & \cdots & 0 \ \vdots & \vdots & \ddots & \vdots \0 & 0 & \cdots & det(VU^T) \end{pmatrix} U^T$$
 [5] translations is $$ t = \overline{q}-R\overline{p}$$
 
 $$
