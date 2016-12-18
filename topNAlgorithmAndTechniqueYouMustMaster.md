@@ -8,7 +8,7 @@ You should master below algorithm and technique. Maninly for software point of v
 5. min/max heap, together with graph shorest path
 6. Tree structure. k-d tree
     * for a full binary tree [ $n=2h+1$, $2^{h+1}-1$], where h is the height of the tree, where root is has height of 0
-    * a perfect full binary tree $l= 2^h$ $n = 2^{h+1}-1$. l is the number of leaf nodes
+    * a perfect full binary tree $l= 2^h$  and $n = 2^{h+1}-1$.  $l$ is the number of leaf nodes
 7. Regression
 8. K-NN: nearest neighbor search
 9. Commonly used data structure: vector, map, set pair, std::sort, boost smart pointer,
