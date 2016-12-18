@@ -40,6 +40,7 @@ $$
 shared_ptr<T> sp1(new T(L"Lady Gaga", L"Just Dance"));
 ... Rules: try to use smart pointer instead of new and delete!
 13. Power of 2
+![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 | power of 2 |  value            | arrox.     | byte to M GB||
 |    7       |  128              |            |             ||
 |    8       |  256              |            |             ||
