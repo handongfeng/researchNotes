@@ -39,3 +39,13 @@ $$
 ...  Use shared_ptr when you want multiple pointers to the same resource.
 shared_ptr<T> sp1(new T(L"Lady Gaga", L"Just Dance"));
 ... Rules: try to use smart pointer instead of new and delete!
+13. Power of 2
+| power of 2 |  value            | arrox.     | byte to M GB||
+|    7       |  128              |            |             ||
+|    8       |  256              |            |             ||
+|    10      |  1024             | 1 thousand | 1k          ||
+|    16      |  65536            |            |  64K        ||
+|    20      |  1,048576         | 1 million  |  1MB        ||
+|    30      |  1,07374741824    | 1 billion  |  1GB        ||
+|    32      | 4,294,967,296     |            |  4GB        ||
+|    40      | 1,099,511,627,776 | 1 trillion |  1TB        ||
