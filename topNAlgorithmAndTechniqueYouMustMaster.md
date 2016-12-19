@@ -50,3 +50,6 @@ shared_ptr<T> sp1(new T(L"Lady Gaga", L"Just Dance"));
 |    30      |  1,07374741824    | 1 billion  |  1GB        ||
 |    32      | 4,294,967,296     |            |  4GB        ||
 |    40      | 1,099,511,627,776 | 1 trillion |  1TB        ||
+
+14. Common functions figure. log(x), exp(x) etc.
+15. Numeric stability. When the number is too large or too smalle, take care of the numeric stability. Overflow and underflow
