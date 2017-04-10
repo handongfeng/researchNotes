@@ -38,7 +38,8 @@ $$
 ...  Use unique_ptr when you want a single pointer to an object that will be reclaimed when that single pointer is destroyed.
 ...  Use shared_ptr when you want multiple pointers to the same resource.
 shared_ptr<T> sp1(new T(L"Lady Gaga", L"Just Dance"));
-... Rules: try to use smart pointer instead of new and delete!
+... Rules: try to use smart pointer instead of new and delete! 
+... example usage is here: https://msdn.microsoft.com/en-us/library/hh279669.aspx
 13. Power of 2
 ![Image of Powerof2Table](https://github.com/handongfeng/researchNotes/blob/master/powerof2.jpg)
 | power of 2 |  value            | arrox.     | byte to M GB||
