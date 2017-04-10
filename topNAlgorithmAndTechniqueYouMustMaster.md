@@ -54,3 +54,4 @@ shared_ptr<T> sp1(new T(L"Lady Gaga", L"Just Dance"));
 
 14. Common functions figure. log(x), exp(x) etc.
 15. Numeric stability. When the number is too large or too smalle, take care of the numeric stability. Overflow and underflow
+16. c++ 11. http://shaoyuan1943.github.io/2014/06/10/C++-11/
