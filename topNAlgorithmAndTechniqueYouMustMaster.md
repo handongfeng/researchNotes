@@ -55,3 +55,45 @@ shared_ptr<T> sp1(new T(L"Lady Gaga", L"Just Dance"));
 14. Common functions figure. log(x), exp(x) etc.
 15. Numeric stability. When the number is too large or too smalle, take care of the numeric stability. Overflow and underflow
 16. c++ 11. http://shaoyuan1943.github.io/2014/06/10/C++-11/
+17. 
+#include <iostream>
+#include <sstream>
+#include <iomanip>
+using namespace std;
+
+double round(double number, unsigned int bits) {
+    stringstream ss;
+    ss << fixed << setprecision(bits) << number;
+    ss >> number;
+    return number;
+}
+
+int main() {
+    double number = 3.1415926535897932;
+    cout << fixed << showpoint << setprecision(15);
+    cout << "一开始number = " << number << endl;
+
+    for (int i = 0; i < 15; ++i) {
+        cout << "number保留" << i << "位小数后为: " 
+            << round(number, i) << endl;
+    }
+
+  bool approximatelyEqual(float a, float b, float epsilon)
+{
+    return fabs(a - b) <= ( (fabs(a) < fabs(b) ? fabs(b) : fabs(a)) * epsilon);
+}
+
+bool essentiallyEqual(float a, float b, float epsilon)
+{
+    return fabs(a - b) <= ( (fabs(a) > fabs(b) ? fabs(b) : fabs(a)) * epsilon);
+}
+
+bool definitelyGreaterThan(float a, float b, float epsilon)
+{
+    return (a - b) > ( (fabs(a) < fabs(b) ? fabs(b) : fabs(a)) * epsilon);
+}
+
+bool definitelyLessThan(float a, float b, float epsilon)
+{
+    return (b - a) > ( (fabs(a) < fabs(b) ? fabs(b) : fabs(a)) * epsilon);
+} 
