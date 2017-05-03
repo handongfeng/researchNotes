@@ -55,7 +55,7 @@ shared_ptr<T> sp1(new T(L"Lady Gaga", L"Just Dance"));
 14. Common functions figure. log(x), exp(x) etc.
 15. Numeric stability. When the number is too large or too smalle, take care of the numeric stability. Overflow and underflow
 16. c++ 11. http://shaoyuan1943.github.io/2014/06/10/C++-11/
-17. 
+17. http://blog.csdn.net/jacketinsysu/article/details/52434669
 #include <iostream>
 #include <sstream>
 #include <iomanip>
@@ -77,6 +77,8 @@ int main() {
         cout << "number保留" << i << "位小数后为: " 
             << round(number, i) << endl;
     }
+    
+18. https://www.coder-note.com/questions/17333/most-effective-way-for-float-and-double-comparison
 
   bool approximatelyEqual(float a, float b, float epsilon)
 {
