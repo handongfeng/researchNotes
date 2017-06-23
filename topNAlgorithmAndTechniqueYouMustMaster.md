@@ -102,3 +102,5 @@ bool definitelyLessThan(float a, float b, float epsilon)
 
 19. 回到数学上，不相关只是说两个变量不线性相关，协方差为0。协方差反映什么？如果两个随机变量，一个变大，另一个也跟着它变大，那么协方差大于0；如果一个变大另一个变小，那么协方差小于0。如果统计学上算下来，一个就不跟着另一个变化，那么协方差等于0——它们俩不相关。
 20. matconvnet mxnet
+21. Max–min inequality. It is used in primal-dual of SVM. https://en.wikipedia.org/wiki/Max%E2%80%93min_inequality
+22. Using conda to install different python version. https://conda.io/docs/py2or3.html#id2
