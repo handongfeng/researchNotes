@@ -104,3 +104,4 @@ bool definitelyLessThan(float a, float b, float epsilon)
 20. matconvnet mxnet
 21. Max–min inequality. It is used in primal-dual of SVM. https://en.wikipedia.org/wiki/Max%E2%80%93min_inequality
 22. Using conda to install different python version. https://conda.io/docs/py2or3.html#id2
+23. 胡适的代表作《中国哲学史大纲》、《白话文学史》皆有始无终，只有上卷而没有下卷，以致被黄侃讥讽为缺失“下面”一截的太监，成了将没有完稿的小说、论著称为“太监”的起源。From wiki https://zh.wikipedia.org/wiki/%E8%83%A1%E9%81%A9
