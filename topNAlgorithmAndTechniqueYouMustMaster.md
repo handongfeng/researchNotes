@@ -105,3 +105,106 @@ bool definitelyLessThan(float a, float b, float epsilon)
 21. Max–min inequality. It is used in primal-dual of SVM. https://en.wikipedia.org/wiki/Max%E2%80%93min_inequality
 22. Using conda to install different python version. https://conda.io/docs/py2or3.html#id2
 23. 胡适的代表作《中国哲学史大纲》、《白话文学史》皆有始无终，只有上卷而没有下卷，以致被黄侃讥讽为缺失“下面”一截的太监，成了将没有完稿的小说、论著称为“太监”的起源。From wiki https://zh.wikipedia.org/wiki/%E8%83%A1%E9%81%A9
+24. 数据江湖，风起云涌。各路英豪，群雄逐鹿。
+
+这是一个数据科学最好的时代，也是数据江湖最乱的时代。
+
+那么在这么一个特殊的江湖里面浪，有什么兵器是值得我们去关注的呢？这篇文章列举
+了一些常用方法（刀剑），并不涵盖工具与平台。就先让我们一起去看看这个排名不分
+先后左右的兵器谱。
+
+数据科学家Vincent Granville博士发表博文列举了数据科学家常用的45种技术。这是
+个很适合初学者去逐个了解的列表。当然，这并不代表数据科学（统计学）的全部。虽
+然他并没有提出自己的详细总结，但是有志于学习数据科学的同学不妨初步有个印象，
+有不太熟悉的topic可以进一步去了解一下。另外我在后面也补充了我认为也值得学习
+的领域，很多人都会在日常的数据实践中用到。多学有益于身心健康。
+
+首先需要说明的是，这些技术只是大概涵盖了大部分数据科学家以及相关领域的实践者
+日常用的方法。这一般意味着他们或使用第三方的解决方案（比如R和Python里面提供
+的相关package），或者自己需要调整或者重新设计合适的工具。    
+
+废话少说，列举如下：
+
+    1. 线性回归     Linear Regression
+    2. 逻辑回归     Logistic Regression 
+    3. 刀切回归     Jackknife Regression *
+    4. 密度估计     Density Estimation 
+    5. 置信区间     Confidence Interval 
+    6. 假设检验     Test of Hypotheses 
+    7. 模式识别     Pattern Recognition 
+    8. 聚类(或者无监督学习)        Clustering - (aka Unsupervised Learning)
+    9. 有监督学习    Supervised Learning 
+    10. 时间序列分析    Time Series 
+    11. 决策树    Decision Trees 
+    12. 随机数    Random Numbers 
+    13. 蒙特卡洛模拟    Monte-Carlo Simulation 
+    14. 贝叶斯统计    Bayesian Statistics 
+    15. 朴素贝叶斯    Naive Bayes 
+    16. 主成分分析    Principal Component Analysis - (PCA)
+    17. 联合学习方法    Ensembles 
+    18. 神经网络        Neural Networks 
+    19. 支持向量机    Support Vector Machine - (SVM)
+    20. 最近邻方法    Nearest Neighbors - (k-NN)
+    21. 特征选择(变量削减)    Feature Selection - (aka Variable Reduction)
+    22. 指数化（编目化）Indexation / Cataloguing *
+    23. 空间统计建模（时空统计）(Geo-) Spatial Modeling 
+    24. 推荐引擎    Recommendation Engine *
+    25. 搜索引擎    Search Engine *
+    26. 归因模型    Attribution Modeling *
+    27. 协同过滤    Collaborative Filtering *
+    28. 规则系统    Rule System 
+    29. 连锁分析    Linkage Analysis 
+    30. 关联规则    Association Rules 
+    31. 打分引擎    Scoring Engine 
+    32. 分割（特指数据分割）Segmentation 
+    33. 预测建模    Predictive Modeling 
+    34. 图数据分析    Graphs 
+    35. 深度学习        Deep Learning 
+    36. 博弈论        Game Theory 
+    37. 数据填充        Imputation 
+    38. 生存分析        Survival Analysis 
+    39. 统计套利        statistical Arbitrage 
+    40. 推举建模        Lift Modeling 
+    41. 产量优化        Yield Optimization
+    42. 交叉验证        Cross-Validation
+    43. 模型拟合        Model Fitting
+    44. 关联算法那    Relevancy Algorithm *
+    45. 实验设计        Experimental Design
+
+以上是Granville博士的观点。
+
+以我自己的经验，一般数据科学家并不会涉及这上面的所有方法，而且很多重要的技术
+也没有在上面出现，比如在我的观点中，一下对于日常的数据战场特别有帮助的武功
+
+a 凸优化（convex analysis）
+b 组合优化（combinatorial optimization）
+c 半监督学习 （semi-supervised learning）
+d 采样（sampling）
+e 强化学习 （reinforcement learning）
+f 自组织映射 （self-organized map)
+g 独立成分分析 （ICA）
+h 降维    （dimensioin reduction）
+i 最大似然估计 （MLE）
+j 通用核方法 （general kernal method）
+k 模型选择 （model selection）
+l 样条方法 （spline method）
+m 正则化 （regularization)
+n 归一化 （normalization）
+o 经验贝叶斯 （empirical bayes）
+p EM算法 （EM algorithm）
+q 变分发 （variational method）
+r 图模型    （graphical models）
+s 可视化    （visualization）
+t 高斯混合模型    （Gaussian mixture models）
+u 异常检测（abnormity/outlier detection）
+v 方差分析 （ANOVA）
+w 遗传算法 （genetic algorithm） 
+x 算法表现评估 （algorithm performance evaluation）
+y 计算机视觉主流方法 （computer vision）
+z 自然语言处理主流方法 （Natural language processing)
+
+天下功夫，万变不离其宗。所有的套路与武器，都是为了在数据的海洋里面寻找到目标
+问题的解药。方法无所谓高低，招数无所谓贵贱。能够达成你的目标的，就是最适合你
+当下的武器。
+
+希望这些对大家的数据实践有所帮助。
