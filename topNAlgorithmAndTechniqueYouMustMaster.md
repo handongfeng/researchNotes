@@ -208,3 +208,19 @@ z 自然语言处理主流方法 （Natural language processing)
 当下的武器。
 
 希望这些对大家的数据实践有所帮助。
+
+
+
+The sampled time waveform input to an FFT determines the computed spectrum. If an arbitrary signal is sampled at a rate equal to fs over an acquisition time T, N samples are acquired. Compute T with the following equation:
+
+where
+
+T is the acquisition time
+
+N is the number of samples acquired
+
+fs is the sampling frequency
+
+Compute N with the following equation:
+
+N = T · fs
