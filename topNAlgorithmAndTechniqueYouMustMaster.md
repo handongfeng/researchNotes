@@ -212,7 +212,7 @@ z 自然语言处理主流方法 （Natural language processing)
 
 
 The sampled time waveform input to an FFT determines the computed spectrum. If an arbitrary signal is sampled at a rate equal to fs over an acquisition time T, N samples are acquired. Compute T with the following equation:
-
+T = N/fs
 where
 
 T is the acquisition time
@@ -224,3 +224,17 @@ fs is the sampling frequency
 Compute N with the following equation:
 
 N = T · fs
+For FFT, the spectrum computed from the sampled signal has a frequency resolution df. Calculate the frequency resolution with the following equation:
+df =  fs/N
+
+PSD: from FFT to PSD. PSD is simply PS (Power Spectrum) divided by ENBW.
+
+PSD=2⋅X^fs⋅S
+where:
+
+X^=|X|2=X⋅X∗X^=|X|2=X⋅X∗ - squared spectrum magnitude
+
+S=∑Ni=1w2iS=∑i=1Nwi2 - scaling factor defined as sum of squared samples of window function
+
+fsfs - sampling frequency
+
