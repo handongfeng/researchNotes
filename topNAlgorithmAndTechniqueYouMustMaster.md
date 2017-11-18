@@ -229,12 +229,12 @@ df =  fs/N
 
 PSD: from FFT to PSD. PSD is simply PS (Power Spectrum) divided by ENBW.
 
-PSD=2⋅X^fs⋅S
+$PSD=2⋅X^fs⋅S$
 where:
 
-X^=|X|2=X⋅X∗X^=|X|2=X⋅X∗ - squared spectrum magnitude
+$X^=|X|2=X⋅X∗X^=|X|2=X⋅X∗$ - squared spectrum magnitude
 
-S=∑Ni=1w2iS=∑i=1Nwi2 - scaling factor defined as sum of squared samples of window function
+$S=∑Ni=1w2iS=∑i=1Nwi2$ - scaling factor defined as sum of squared samples of window function
 
-fsfs - sampling frequency
+fs - sampling frequency
 
