@@ -228,6 +228,7 @@ For FFT, the spectrum computed from the sampled signal has a frequency resolutio
 df =  fs/N
 
 PSD: from FFT to PSD. PSD is simply PS (Power Spectrum) divided by ENBW.
+https://dsp.stackexchange.com/questions/32187/what-should-be-the-correct-scaling-for-psd-calculation-using-tt-fft
 
 $PSD=2⋅X^fs⋅S$
 where:
