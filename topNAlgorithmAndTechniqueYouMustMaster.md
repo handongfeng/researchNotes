@@ -239,3 +239,5 @@ $S=∑Ni=1w2iS=∑i=1Nwi2$ - scaling factor defined as sum of squared samples of
 
 fs - sampling frequency
 
+good info for world embedding
+https://www.zhihu.com/question/32275069
