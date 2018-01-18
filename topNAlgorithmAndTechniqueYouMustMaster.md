@@ -241,3 +241,14 @@ fs - sampling frequency
 
 good info for world embedding
 https://www.zhihu.com/question/32275069
+
+
+
+epoch, iterations, batch in deep learning
+The simple definition of epoch is ,
+
+An epoch is one forward pass and one backward pass of all training examples.
+
+Note : epoch and iterations are two different things.
+
+For example , for a set of 1000 images and a batch size of 10, each iteration would process 10 images for a total of 100 such iterations to go over the entire set. This is called one epoch. Training can go on for 100s of epochs.
