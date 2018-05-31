@@ -10,5 +10,5 @@ Here are several steps:
 2. copy your public key in your application ssh key
 3. open Pageant, if alreay open it's minimized. Right click->add key. select your private key. Then you can use ssh connect to gitlab
 
-# Ubuntu window 10 hmme folder.
+# Ubuntu window 10 home folder
 C:\Users\<userName>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows_79rhkp1fndgsc\LocalState\rootfs\home\
