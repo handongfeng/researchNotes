@@ -3,22 +3,22 @@
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
 ##Force to update local from remote
-git fetch --all
-git reset --hard review/initial-version
+1. git fetch --all
+2. git reset --hard review/initial-version
 
 if you alreay in the current branch, you will update current branch
-git fetch --all
-git reset --hard
+1. git fetch --all
+2. git reset --hard
 
 
 ## update changes from local to remote
 Such as you modified somethings in local file you want to push and uodate to remote.
-git commit -am 'upate message'
-git push
+1. git commit -am 'upate message'
+2. git push
 
 ## change message 
-git commit --amend -m "New commit message"
-git push --force origin <BRANCH-NAME>
+1. git commit --amend -m "New commit message"
+2. git push --force origin <BRANCH-NAME>
 
 # set up ssh key on windows
 https://www.cgranade.com/blog/2016/06/06/ssh-keys-in-vscode.html
