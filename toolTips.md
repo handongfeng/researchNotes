@@ -16,6 +16,10 @@ Such as you modified somethings in local file you want to push and uodate to rem
 git commit -am 'upate message'
 git push
 
+## change message 
+git commit --amend -m "New commit message"
+git push --force origin <BRANCH-NAME>
+
 # set up ssh key on windows
 https://www.cgranade.com/blog/2016/06/06/ssh-keys-in-vscode.html
 
