@@ -2,6 +2,15 @@
 # common git command
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
+Force to update local from remote
+git fetch --all
+git reset --hard review/initial-version
+
+if you alreay in the current branch, you will update current branch
+git fetch --all
+git reset --hard
+
+
 # set up ssh key on windows
 https://www.cgranade.com/blog/2016/06/06/ssh-keys-in-vscode.html
 
