@@ -1,8 +1,11 @@
 
+# git tutorial
+https://www.atlassian.com/git/tutorials/
+
 # common git command
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
-##Force to update local from remote
+## Force to update local from remote
 1. git fetch --all
 2. git reset --hard review/initial-version
 
