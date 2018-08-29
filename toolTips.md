@@ -41,3 +41,7 @@ C:\Users\<userName>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows
 4. git push --set-upstream origin newDev
 5. git commit -am 'upate message'
 6. git push
+
+
+# create anaconda python 3.6 env
+conda create -n myEnvName python=3.6 anaconda
