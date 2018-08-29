@@ -44,9 +44,9 @@ C:\Users\<userName>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows
 
 
 # create anaconda python 3.6 env
-conda create -n myEnvName python=3.6 anaconda
-on linux, source activate myEnvName
-check python version using python --version
-or  source deactivate
+1. conda create -n myEnvName python=3.6 anaconda
+2. on linux, source activate myEnvName
+3. check python version using python --version
+4. or  source deactivate
 
 
