@@ -49,4 +49,18 @@ C:\Users\<userName>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows
 3. check python version using python --version
 4. or  source deactivate
 
+# 
+1. conda install -c auto more-itertools 
+2.
+```python
+s = "Python syntax highlighting"
+print s
+
+import itertools  
+num = [1, 2, 3]
+color = ['red', 'while', 'black']
+value = [255, 256]
+for a, b, c in itertools.izip(num, color, value):
+    print(a, b, c)
+```
 
