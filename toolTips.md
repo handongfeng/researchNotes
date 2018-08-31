@@ -50,12 +50,9 @@ C:\Users\<userName>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindows
 4. or  source deactivate
 
 # 
-1. conda install -c auto more-itertools 
-2.
-```python
-s = "Python syntax highlighting"
-print s
-
+1. first install the package: conda install -c auto more-itertools 
+2. example usage 
+```
 import itertools  
 num = [1, 2, 3]
 color = ['red', 'while', 'black']
