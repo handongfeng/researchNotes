@@ -1,4 +1,7 @@
 
+# use git efficiently
+(https://github.com/handongfeng/researchNotes/blob/master/usegit.jpg)
+
 # git tutorial
 https://www.atlassian.com/git/tutorials/
 
