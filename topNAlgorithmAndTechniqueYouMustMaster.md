@@ -252,3 +252,13 @@ An epoch is one forward pass and one backward pass of all training examples.
 Note : epoch and iterations are two different things.
 
 For example , for a set of 1000 images and a batch size of 10, each iteration would process 10 images for a total of 100 such iterations to go over the entire set. This is called one epoch. Training can go on for 100s of epochs.
+
+# PCA SVD 
+PCA的数学原理
+http://blog.codinglabs.org/articles/pca-tutorial.html
+
+（四）矩阵的特征分解与奇异值分解(SVD)
+https://zhuanlan.zhihu.com/p/31386807
+
+（六）奇异值的物理意义
+https://zhuanlan.zhihu.com/p/31387766
