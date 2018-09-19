@@ -8,6 +8,27 @@ https://www.atlassian.com/git/tutorials/
 # common git command
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
+## get remote branch to a totally new local
+1. git clone https://xxxx.git
+2. git branch -a to list all your branches, yould see 
+
+You should see something similar to the following. Notice that it lists both the branches that are local and the remote branches on Bitbucket. Using the list as reference, choose the branch you want to checkout.  In this example, the feature branch is the branch.
+
+```python
+* master   <feature_branch>
+  remotes/origin/<feature_branch>
+  remotes/origin/master
+```
+
+3. Checkout the branch you want to use.
+```python
+git checkout <feature_branch>
+```
+4.Confirm you are now working on that branch:
+```python
+git branch
+```
+
 ## Force to update local from remote
 1. git fetch --all
 2. git reset --hard review/initial-version
