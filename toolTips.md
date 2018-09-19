@@ -9,6 +9,8 @@ https://www.atlassian.com/git/tutorials/
 https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
 
 ## get remote branch to a totally new local
+https://confluence.atlassian.com/bitbucket/checkout-a-branch-into-a-local-repository-313466957.html
+
 1. git clone https://xxxx.git
 2. git branch -a to list all your branches, yould see 
 
