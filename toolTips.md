@@ -1,10 +1,14 @@
 
 # use vs code as git diff tool
 
+https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git
+
+
 1. in the vs command line input: git config --global core.editor "code --wait"
 
 2. Add the following to enable support for using VS Code as diff tool: 
-```python
+
+```
 [diff]
     tool = default-difftool
 [difftool "default-difftool"]
