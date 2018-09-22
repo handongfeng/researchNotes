@@ -4,12 +4,12 @@
 1. in the vs command line input: git config --global core.editor "code --wait"
 
 2. Add the following to enable support for using VS Code as diff tool: 
-
+```python
 [diff]
     tool = default-difftool
 [difftool "default-difftool"]
     cmd = code --wait --diff $LOCAL $REMOTE
-
+```
 
 3. git difftool location\filename to compare your file
 
