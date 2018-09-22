@@ -21,6 +21,22 @@ https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-de
 3. git difftool location\filename to compare your file
 
 
+4. compare the working directory with local repository. 
+
+git diff HEAD [filename] 
+
+example: below command compare  the latest commit with the local one for test.py
+```
+git difftool HEAD .\src\test.py  
+```
+
+for a file "main.c" between now and two commits back, here are three equivalent commands:
+```
+$ git diff HEAD^^ HEAD main.c
+$ git diff HEAD^^..HEAD -- main.c
+$ git diff HEAD~2 HEAD -- main.c
+```
+
 # use git efficiently
 (https://github.com/handongfeng/researchNotes/blob/master/usegit.jpg)
 
