@@ -1,4 +1,7 @@
 
+# Quit git log or git diff with:   in cmd: type q to exit this screen
+
+
 # use vs code as git diff tool
 
 https://stackoverflow.com/questions/30024353/how-to-use-visual-studio-code-as-default-editor-for-git
