@@ -57,7 +57,7 @@ mycompany
 
 类似的，可以有多级目录，组成多级层次的包结构。比如如下的目录结构：
 
-![example](https://github.com/handongfeng/researchNotes/0(1).png "example")
+![example](https://github.com/handongfeng/researchNotes/blob/master/0%20(1).png "example")
 
 mycompany-web
 
