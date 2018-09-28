@@ -47,7 +47,7 @@ So you can now filter the merged df by selecting only 'left_only' rows
 
 现在，假设我们的abc和xyz这两个模块名字与其他模块冲突了，于是我们可以通过包来组织模块，避免冲突。方法是选择一个顶层包名，比如mycompany，按照如下目录存放：
 
-![example](https://github.com/handongfeng/researchNotes/blob/master/0.png "example")
+![example](0.png "example")
 
 mycompany
 
