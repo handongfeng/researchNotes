@@ -133,7 +133,7 @@ for a, b, c in itertools.izip(num, color, value):
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'HOST': '10.8.0.154',
+        'HOST': '10.8.100.154', ### the db server address
         'NAME': 'master',
         'Trusted_Connection': 'yes',
         'OPTIONS': {
