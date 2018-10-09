@@ -125,3 +125,21 @@ for a, b, c in itertools.izip(num, color, value):
     print(a, b, c)
 ```
 
+
+
+# Django 2.x db setting with MS SQL SERVER
+
+```
+DATABASES = {
+    'default': {
+        'ENGINE': 'sql_server.pyodbc',
+        'HOST': '10.8.0.154',
+        'NAME': 'master',
+        'Trusted_Connection': 'yes',
+        'OPTIONS': {
+            'host_is_server': True,
+            'driver': 'SQL Server',
+        },
+    }
+}
+```
