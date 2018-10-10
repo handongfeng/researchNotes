@@ -74,8 +74,9 @@ If you are on Windows, install the latest version of the Microsoft ODBC Driver f
 If you are on Linux or macOS, use this page to determine the latest driver available for your distribution.
 
 Use parameter placeholders and pass the values as date and time objects for the current datetime value.
-
+```
 now = datetime.datetime.now()
 sql = "insert into Database3([row name], [my date], [my time]) values (?,?,?)"
 cursor.execute(sql, ('new1', now.date(), now.time()))
 cnxn.commit()
+```
