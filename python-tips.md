@@ -64,3 +64,18 @@ mycompany-web
 文件www.py的模块名就是mycompany.web.www，两个文件utils.py的模块名分别是mycompany.utils和mycompany.web.utils。
 
 mycompany.web也是一个模块，请指出该模块对应的.py文件。
+
+
+
+#
+
+If you are on Windows, install the latest version of the Microsoft ODBC Driver for SQL Server to ensure the DATE and TIME types are supported.
+
+If you are on Linux or macOS, use this page to determine the latest driver available for your distribution.
+
+Use parameter placeholders and pass the values as date and time objects for the current datetime value.
+
+now = datetime.datetime.now()
+sql = "insert into Database3([row name], [my date], [my time]) values (?,?,?)"
+cursor.execute(sql, ('new1', now.date(), now.time()))
+cnxn.commit()
