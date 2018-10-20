@@ -1,3 +1,26 @@
+# run python code with conda env directly from windows task schedule
+
+1. install anaconda for example we install at C:\Anaconda3
+2. create the env as my_env
+3. install all packages you need
+4. write your python code save as my_test.py
+5. create a bat file  my_job.bat and input below code in the bat file
+```
+call activate  my_env
+python D:\work\test\my_test.py -c D:\work\test\test_confg.yaml
+call deactivate
+```
+6. set window envirment variable: set path variables C:\Anaconda3;C:\Anaconda3\Scripts;
+
+7. open window search and search task scheduler and open it. On the right, create a task.
+
+8. On the 'Triggers' tab, set when you want your code run
+
+9. on the 'Actions' tab in the Program/script: input your bat file path. In this example is D:\work\test\my_job.bat
+
+done!
+
+
 1. Use the rename function and refer the columns to be renamed. Not all the columns have to be renamed:
 'df = df.rename(columns={'oldName1': 'newName1', 'oldName2': 'newName2'})'
 OR
