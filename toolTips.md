@@ -150,6 +150,9 @@ DATABASES = {
 python logging example using yaml format
 
 
+https://github.com/jscherer26/example/blob/master/config/logging.yaml
+
+
 version:
   1
 formatters:
