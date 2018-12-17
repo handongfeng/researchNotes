@@ -59,7 +59,8 @@ You should see something similar to the following. Notice that it lists both the
   remotes/origin/<feature_branch>
   remotes/origin/master
 ```
-
+3. git fetch origin
+   and git branch -r to see available branches
 3. Checkout the branch you want to use.
 ```python
 git checkout <feature_branch>
@@ -143,3 +144,106 @@ DATABASES = {
     }
 }
 ```
+
+
+
+python logging example using yaml format
+
+
+version:
+  1
+formatters:
+  simple:
+    format: '[%(asctime)s] (%(filename)20s:%(lineno)4s) [%(levelname)8s] - %(message)s '
+    datefmt: '%Y-%m-%d %H:%M:%S'
+  complex:
+    format: '[%(asctime)s] (%(filename)20s:%(lineno)4s) [%(levelname)8s] - %(message)s '
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: simple
+    level: DEBUG
+    stream: ext://sys.stdout
+  debug:
+    class: logging.handlers.RotatingFileHandler
+    formatter: complex
+    level: DEBUG
+    filename: ./files/example.10.debug.log
+    mode: a
+    maxBytes: 25000
+    backupCount: 3
+  info:
+    class: logging.handlers.RotatingFileHandler
+    formatter: complex
+    level: INFO
+    filename: ./files/example.20.info.log
+    mode: a
+    maxBytes: 25000
+    backupCount: 3
+  warning:
+    class: logging.handlers.RotatingFileHandler
+    formatter: complex
+    level: WARNING
+    filename: ./files/example.30.warning.log
+    mode: a
+    maxBytes: 5000
+    backupCount: 6
+  error:
+    class: logging.handlers.RotatingFileHandler
+    formatter: complex
+    level: ERROR
+    filename: ./files/example.40.error.log
+    mode: a
+    maxBytes: 5000
+    backupCount: 6
+  critical:
+    class: logging.handlers.RotatingFileHandler
+    formatter: complex
+    level: CRITICAL
+    filename: ./files/example.50.critical.log
+    mode: a
+    maxBytes: 5000
+    backupCount: 6
+  custom:
+    class: logging.handlers.RotatingFileHandler
+    formatter: complex
+    level: CRITICAL
+    filename: ./files/example.60.custom.log
+    mode: a
+    maxBytes: 5000
+    backupCount: 6
+  email:
+    class: logging.handlers.SMTPHandler
+    formatter: complex
+    level: CRITICAL
+    mailhost: 
+      - smtp.comcast.net
+      - 25 
+    fromaddr: southfork.scherer@comcast.net
+    toaddrs: jscherer26@gmail.com
+    subject: Example Program Critical Log
+    credentials: 
+      - southfork.scherer
+      - Cc11012003
+    secure: True
+  memory:
+    class: logging.handlers.MemoryHandler
+    formatter: complex
+    level: DEBUG
+    flushLevel: ERROR
+    target: error
+    capacity: 25
+  history:
+    class: logging.handlers.HistoryHandler
+    formatter: complex
+    level: DEBUG
+    flushLevel: CRITICAL
+    target: custom
+    capacity: 15
+loggers:
+  err:
+    level: ERROR
+    handlers: [error]
+root:
+  level: NOTSET
+  handlers: [console, debug, info, warning, error, critical, history, email ]
