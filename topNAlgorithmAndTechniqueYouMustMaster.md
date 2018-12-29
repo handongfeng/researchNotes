@@ -262,3 +262,12 @@ https://zhuanlan.zhihu.com/p/31386807
 
 （六）奇异值的物理意义
 https://zhuanlan.zhihu.com/p/31387766
+
+
+
+# reading list
+word2vec Parameter Learning Explained
+https://arxiv.org/pdf/1411.2738.pdf
+
+Real-time Personalization using Embeddings for Search Ranking at Airbnb
+https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb
