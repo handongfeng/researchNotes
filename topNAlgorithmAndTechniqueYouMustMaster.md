@@ -271,3 +271,6 @@ https://arxiv.org/pdf/1411.2738.pdf
 
 Real-time Personalization using Embeddings for Search Ranking at Airbnb
 https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb
+
+
+http://mccormickml.com/
