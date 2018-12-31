@@ -1,3 +1,17 @@
+# python += vs append
+
+https://stackoverflow.com/questions/2022031/python-append-vs-operator-on-lists-why-do-these-give-different-results
+
+c = [1, 2, 3]
+c += c 
+results is [1,2,3,1,2,3]
+
+c = [1, 2, 3]
+c.append(c)
+results is [1, 2, 3, [...]]
+
+
+
 # run python code with conda env directly from windows task schedule
 
 1. install anaconda for example we install at C:\Anaconda3
