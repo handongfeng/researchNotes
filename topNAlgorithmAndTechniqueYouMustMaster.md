@@ -272,5 +272,8 @@ https://arxiv.org/pdf/1411.2738.pdf
 Real-time Personalization using Embeddings for Search Ranking at Airbnb
 https://www.kdd.org/kdd2018/accepted-papers/view/real-time-personalization-using-embeddings-for-search-ranking-at-airbnb
 
-
 http://mccormickml.com/
+
+我非常满意的一个应用是把word2vec应用在用户app下载序列上，根据用户下载app的顺序，把app看做单词，也是可以形成这样的序列数据，进而训练处每个app对应的向量。利用这个向量计算app之间的相似度，效果非常好，能够把真正内容相关的app聚合在一起，同事规避热门app的影响。类似的场景应该还有很多，而且应用也很广泛，比如说推荐系统、广告系统都可以用上
+
+
