@@ -1,3 +1,35 @@
+# pandas tips with large data
+
+https://towardsdatascience.com/why-and-how-to-use-pandas-with-large-data-9594dda2ea4c
+
+large data means < 100GB 
+1.  Read CSV file data in chunk size
+'''
+# read the large csv file with specified chunksize 
+df_chunk = pd.read_csv(r'../input/data.csv', chunksize=1000000)
+'''
+
+2. 2. Filter out unimportant columns to save memory
+
+'''
+# Filter out unimportant columns
+df = df[['col_1','col_2', 'col_3', 'col_4', 'col_5', 'col_6','col_7', 'col_8', 'col_9', 'col_10']]
+'''
+3. Change dtypes for columns
+I can say that changing data types in Pandas is extremely helpful to save memory, especially if you have large data for intense analysis or computation (For example, feed data into your machine learning model for training).
+
+'''
+# Change the dtypes (int64 -> int32)
+df[['col_1','col_2', 
+    'col_3', 'col_4', 'col_5']] = df[['col_1','col_2', 
+                                      'col_3', 'col_4', 'col_5']].astype('int32')
+
+# Change the dtypes (float64 -> float32)
+df[['col_6', 'col_7',
+    'col_8', 'col_9', 'col_10']] = df[['col_6', 'col_7',
+                                       'col_8', 'col_9', 'col_10']].astype('float32
+'''
+
 # python += vs append
 
 https://stackoverflow.com/questions/2022031/python-append-vs-operator-on-lists-why-do-these-give-different-results
