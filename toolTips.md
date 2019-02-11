@@ -7,6 +7,7 @@ The usual method I have seen is X.Y.Z, which generally corresponds to major.mino
 2. Minor version numbers change when a new, minor feature is introduced or when a set of smaller features is rolled out.
 3. Patch numbers change when a new build of the software is released to customers. This is normally for small bug-fixes or the like.
 
+Most of the time just using above rules.
 
 Other variations use build numbers as an additional identifier. So you may have a large number for X.Y.Z.build if you have many revisions that are tested between releases. I use a couple of packages that are identified by year/month or year/release. Thus, a release in the month of September of 2010 might be 2010.9 or 2010.3 for the 3rd release of this year.
 
