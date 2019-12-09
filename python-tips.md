@@ -1,3 +1,15 @@
+# download course material 
+
+1. install coursea-dl.  
+
+pip install cooursera-dl
+
+2. open  https://learner.coursera.help/hc/en-us login in with your account info
+
+3. wait for about 1-2 minutes runing command to download all material
+
+coursera-dl -u username -p password course_name
+
 # pandas tips with large data
 
 https://towardsdatascience.com/why-and-how-to-use-pandas-with-large-data-9594dda2ea4c
