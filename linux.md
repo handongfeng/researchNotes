@@ -1,5 +1,11 @@
 screen command
-1. https://gist.github.com/jctosta/af918e1618682638aa82
+1. kill a screen session
+https://askubuntu.com/questions/356006/kill-a-screen-session
+
+First you need to re attach to the screen session
+screen -r 23520 as you have done. Then press ctrl + a and then a k and press y when it asks if you really want to kill the session
+
+2. https://gist.github.com/jctosta/af918e1618682638aa82
 
 
 # Screen Quick Reference
